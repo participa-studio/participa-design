@@ -1,1 +1,1 @@
-# participa-design
+# participa.design
