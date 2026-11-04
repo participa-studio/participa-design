@@ -1,0 +1,44 @@
+# ─────────────────────────────────────────────────────────────
+# PARTICIPA . DESIGN — SITE SETTINGS
+# The shared look (header, footer, layouts) comes from participa-core.
+# This file only says what is different about this site.
+# ─────────────────────────────────────────────────────────────
+
+remote_theme: participa-studio/participa-core
+plugins:
+  - jekyll-remote-theme
+
+# Files that are for us, not for visitors
+exclude:
+  - README.md
+
+participa:
+  core: https://participa-studio.github.io/participa-core
+  version: 20261104-4          # raise this after every core change
+
+  title: P A R T I C I P A º D E S I G N
+  og_title: Participa Design
+  description: "Participa Design: the service and participatory design portfolio of Bernardo van de Schepop."
+
+  own: design                  # which logo is ours
+  name: Design                 # label next to our logo
+  name_full: Participa Design
+
+  sister:
+    own: studio
+    name: Studio
+    name_full: Participa Studio
+    url: https://participa.studio/
+
+  nav:
+    - title: Work
+      url: /lab/lego/
+    - title: About
+      url: "#"
+    - title: CV
+      url: "#"
+
+  kvk: "42023602"
+  instagram: https://www.instagram.com/participa.studio/
+  linkedin: https://www.linkedin.com/in/schepop/
+  email: bernardo@schepop.org
