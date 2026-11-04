@@ -14,7 +14,7 @@ exclude:
 
 participa:
   core: https://participa-studio.github.io/participa-core
-  version: 20261104-6          # raise this after every core change
+  version: 20261104-7          # raise this after every core change
 
   title: P A R T I C I P A º D E S I G N
   og_title: Participa Design
@@ -34,7 +34,7 @@ participa:
     - title: Work
       url: /lab/tip/
     - title: About
-      url: "#"
+      url: /lab/about/
     - title: CV
       url: /lab/cv/
 
