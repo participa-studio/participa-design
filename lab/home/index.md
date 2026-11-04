@@ -17,4 +17,8 @@ cases:
   org: LEGO Concept Lab
   years: '2009'
   url: /lab/tip/
+quotes:
+- text: The project focus must be on the play experience, rather than on any technology.
+  name: Harm van Beek
+  role: Company mentor, LEGO Concept Lab, Billund
 ---
