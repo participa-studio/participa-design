@@ -17,23 +17,4 @@ cases:
   org: LEGO Concept Lab
   years: '2009'
   url: /lab/tip/
-sides:
-- own: design
-  name: Participa . Design
-  tag: Corporate design
-  url: /lab/about/
-  text: Service design, design strategy and design leadership for organisations.
-  links:
-  - title: About
-    url: /lab/about/
-  - title: CV
-    url: /lab/cv/
-- own: studio
-  name: Participa . Studio
-  tag: Social design
-  url: https://participa.studio/
-  text: Participatory and social design with communities, for social and environmental change.
-  links:
-  - title: Visit participa.studio
-    url: https://participa.studio/
 ---
