@@ -1,7 +1,7 @@
 ---
 layout: case
 noindex: true
-title: LeasePlan — One end-to-end experience
+title: "LeasePlan Digital — E2E NGDX: Next Generation Digital Experience"
 org: LeasePlan Digital
 years: 2018–2023
 order: 10

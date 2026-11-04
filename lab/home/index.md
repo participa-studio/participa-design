@@ -20,7 +20,7 @@ quotes:
   name: Shirsha Ganguly, PhD
   role: Senior UX Researcher, LeasePlan
   place: Amsterdam, Netherlands
-  project: LeasePlan — One end-to-end experience
+  project: "LeasePlan Digital — E2E NGDX: Next Generation Digital Experience"
   url: /lab/leaseplan/
 - text: Bernardo is able to see not only minute design details one needs to when designing a complex platform, but also how to manage an autonomous multi-department, cross-continental international team to be able to create a cohesive vision business-wide.
   name: Jamie Teresuk
