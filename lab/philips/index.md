@@ -26,6 +26,6 @@ outcome: 'A distributed UX organisation of 13 designers: 5 in Amsterdam, 5 in Ba
 quote:
   text: Bernardo is able to see not only minute design details one needs to when designing a complex platform, but also how to manage an autonomous multi-department, cross-continental international team to be able to create a cohesive vision business-wide.
   name: Jamie Teresuk
-  role: Direct report, TP Vision
+  role: User Experience Lead, TP Vision
 note: Images to follow.
 ---

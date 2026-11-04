@@ -23,7 +23,7 @@ quotes:
   url: /lab/leaseplan/
 - text: Bernardo is able to see not only minute design details one needs to when designing a complex platform, but also how to manage an autonomous multi-department, cross-continental international team to be able to create a cohesive vision business-wide.
   name: Jamie Teresuk
-  role: Direct report, TP Vision
+  role: User Experience Lead, TP Vision
   project: Philips TV — From waterfall to the first Android TVs
   url: /lab/philips/
 - text: The project focus must be on the play experience, rather than on any technology.
