@@ -21,4 +21,6 @@ quotes:
 - text: The project focus must be on the play experience, rather than on any technology.
   name: Harm van Beek
   role: Company mentor, LEGO Concept Lab, Billund
+  project: TiP — Tangible Interactions for Playing
+  url: /lab/tip/
 ---
