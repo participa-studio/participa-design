@@ -11,7 +11,7 @@ actions:
   url: /lab/cv/
 - title: About
   url: /lab/about/
-work_heading: Selected work
+work_heading: From the work
 work_link:
   title: All work
   url: /lab/work/
