@@ -25,9 +25,9 @@ challenge: "LEGO offered a great physical building experience, and digital play 
 approach: A child-centred, vision-led process. Contextmapping research with parents as co-researchers, then four play iterations with children, building every prototype in LEGO.
 outcome: A small-scale LEGO city whose plates carry augmented reality markers, seen through a LEGO-built handheld viewer. Children grasped that a physical element can stand for a virtual one and moved markers freely between scenes.
 
-note: Commissioned project undertaken through the TU Delft graduation programme (MSc Design for Interaction, 2009).
+note: Commissioned project undertaken through the TU Delft graduation programme (MSc Design for Interaction, 2009). The thesis is publicly available in the TU Delft repository [link to be confirmed].
 
-downloads:
+artefacts:
   - label: TiP Insight Cards book
     # file: tip-insight-cards.pdf   (remove the # when the PDF is in this folder)
 ---
