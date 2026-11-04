@@ -11,8 +11,6 @@ facts:
     value: Jan – Jun 2009
   - label: Role
     value: Concept Designer
-  - label: Research question
-    value: What is the role of technology in children's play experiences?
   - label: Disciplines
     value: Child-centred design · Contextmapping · Tangible interaction · AR prototyping
 
@@ -23,7 +21,7 @@ photos:
   - caption: LEGO-built viewer showing augmented reality over the models
   - caption: "Final play session: children moving AR plates between scenes"
 
-challenge: Concept Lab asked for a toy that integrates LEGO's physical building with new digital elements, for boys aged 5 to 11, with the 2011 toy market in view.
+challenge: "Concept Lab asked for a toy that integrates LEGO's physical building with new digital elements, for boys aged 5 to 11, with the 2011 toy market in view. The research asked what role technology plays in children's play experiences: what is fun about technology, how children perceive it, and how they play with it."
 approach: A child-centred, vision-led process. Contextmapping research with parents as co-researchers, then four play iterations with children, building every prototype in LEGO.
 outcome: A small-scale LEGO city whose plates carry augmented reality markers, seen through a LEGO-built handheld viewer. Children grasped that a physical element can stand for a virtual one and moved markers freely between scenes.
 
