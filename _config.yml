@@ -34,10 +34,10 @@ participa:
     - title: Work
       url: /lab/work/
       layouts: [case]
-    - title: About
-      url: /lab/about/
     - title: Experience
       url: /lab/cv/
+    - title: About
+      url: /lab/about/
 
   kvk: "42023602"
   instagram: https://www.instagram.com/participa.studio/
