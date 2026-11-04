@@ -10,7 +10,9 @@ facts:
   - label: Year
     value: Jan – Jun 2009
   - label: Role
-    value: Designer, new play experiences
+    value: Concept Designer
+  - label: Research question
+    value: What is the role of technology in children's play experiences?
   - label: Disciplines
     value: Child-centred design · Contextmapping · Tangible interaction · AR prototyping
 
