@@ -30,9 +30,10 @@ approach: A child-centred, vision-led process. Contextmapping research with pare
 outcome: A small-scale LEGO city whose plates carry augmented reality markers, seen through a LEGO-built handheld viewer. Children grasped that a physical element can stand for a virtual one and moved markers freely between scenes.
 
 quote:
-  text: The project focus must be on the play experience, rather than on any technology.
+  text: The assignment asked to build on a specific technology, but any toy should bring a relevant play experience that justifies the investment. Thus the project focus must be on the play experience, rather than on any technology.
   name: Harm van Beek
-  role: Company mentor, LEGO Concept Lab, Billund
+  role: Company mentor, LEGO Concept Lab
+  place: Billund, Denmark
 
 note: Commissioned project undertaken through the TU Delft graduation programme (MSc Design for Interaction, 2009). The thesis is publicly available in the TU Delft repository [link to be confirmed].
 
