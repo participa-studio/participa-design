@@ -25,5 +25,9 @@ photos:
 challenge: LeasePlan was in the middle of a company-wide digitisation programme that started in 2017. Its digital products were fragmented across markets, teams used different journey views at different levels of detail, and design was six isolated designers.
 approach: 'I harmonised the journey models into one end-to-end framework of the lease lifecycle, then mapped the people, processes and technology behind each moment into service blueprints. Around it I built the practice: research, service and product design, design sprints to de-risk ideas on desirability, viability and feasibility, and design goals tracked monthly against business targets.'
 outcome: One end-to-end framework recognised company-wide, and NGDX, the Next Generation Digital Experience, designed on it. The team grew from 6 to more than 20 designers and researchers. Velocity, the global design system, scaled as countries joined and later carried the brand migration from LeasePlan to Ayvens.
+quote:
+  text: His perspective and knowledge of the craft has helped build design and user experience as one of the cornerstones in a product driven environment.
+  name: Shirsha Ganguly, PhD
+  role: Senior UX Researcher, LeasePlan
 note: Work samples from LeasePlan Digital, 2018–2023. Images to follow.
 ---
