@@ -14,7 +14,7 @@ sides:
   links:
   - title: Work
     url: /lab/tip/
-  - title: CV
+  - title: Experience
     url: /lab/cv/
 - own: studio
   name: Participa . Studio
@@ -34,5 +34,5 @@ facts:
   value: Portuguese (native), English, Dutch, Spanish
 - label: Company
   value: Participa Design Studio
-contact: For work or a conversation, write to [bernardo@schepop.org](mailto:bernardo@schepop.org) or find me on [LinkedIn](https://www.linkedin.com/in/schepop/).
+contact: 'My career in full is under [Experience](/lab/cv/). For work or a conversation, write to [bernardo@schepop.org](mailto:bernardo@schepop.org) or find me on [LinkedIn](https://www.linkedin.com/in/schepop/).'
 ---

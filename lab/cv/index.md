@@ -1,7 +1,7 @@
 ---
 layout: cv
 noindex: true
-title: CV
+title: Experience
 person: Bernardo van de Schepop
 headline: Service Design and Design Strategy · User Research, Experience Strategy, Design Leadership
 location: Haarlem, Netherlands

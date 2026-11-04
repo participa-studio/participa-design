@@ -7,7 +7,7 @@ intro: I am Bernardo van de Schepop, a service designer and design leader based 
 actions:
 - title: Work ↓
   url: '#work'
-- title: CV
+- title: Experience
   url: /lab/cv/
 - title: About
   url: /lab/about/
