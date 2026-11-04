@@ -2,6 +2,10 @@
 layout: case
 noindex: true
 title: TiP — Tangible Interactions for Playing
+org: LEGO Concept Lab
+years: '2009'
+order: 20
+featured: true
 lead: A new play experience joining LEGO building with digital elements, designed in close contact with children at LEGO Concept Lab.
 
 facts:

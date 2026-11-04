@@ -12,11 +12,9 @@ actions:
 - title: About
   url: /lab/about/
 work_heading: Selected work
-cases:
-- title: TiP — Tangible Interactions for Playing
-  org: LEGO Concept Lab
-  years: '2009'
-  url: /lab/tip/
+work_link:
+  title: All work
+  url: /lab/work/
 quotes:
 - text: The project focus must be on the play experience, rather than on any technology.
   name: Harm van Beek
