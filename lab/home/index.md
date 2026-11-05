@@ -6,7 +6,7 @@ statement: Service design and design leadership
 intro: I am Bernardo van de Schepop, a service designer and design leader based in Haarlem, with more than 25 years in digital products and services.
 actions:
 - title: Cases
-  url: '#work'
+  url: /lab/work/
 - title: Experience
   url: /lab/cv/
 - title: About
