@@ -2,7 +2,7 @@
 layout: about
 noindex: true
 title: About
-heading: 'Why Participa: designing WITH people, not for them'
+heading: 'Participa: designing WITH'
 intro: 'Participa is the name for a way of working I have followed from the start: designing WITH people, not for them. It began with my graduation research at TU Delft in 2009, where children shaped a new LEGO play experience. It continues in how I map services, run co-creation and build design teams.'
 throughline: 'Participa works on two sides: Participa Design, for organisations, and Participa Studio, for social design.'
 sides:
