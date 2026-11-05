@@ -7,7 +7,7 @@ org: Freediving Seychelles
 years: '2021'
 order: 7
 featured: false
-lead: A brand identity for a freediving school in the Seychelles, created with its founder, Sophie Seywalsh, while I trained with her.
+lead: A brand identity for a freediving school in the Seychelles, created with its founder, Sophie Walsh, while I trained with her.
 facts:
 - label: Client
   value: Freediving Seychelles
@@ -20,9 +20,10 @@ facts:
 - label: Website
   value: '[freedivingseychelles.com](https://www.freedivingseychelles.com/)'
 photos:
-- caption: The brand
+- src: /images/cases/freediving-seychelles-logo.jpg
+  caption: The logo, still in use by the school
 - caption: Applications on shirts and flip-flops
-challenge: Sophie Seywalsh, an AIDA freediving instructor, was starting her own school and asked for a brand. I was training freediving with her at the time.
+challenge: Sophie Walsh, an AIDA freediving instructor, was starting her own school and asked for a brand. I was training freediving with her at the time.
 approach: We worked it out together over email and WhatsApp, in a long and rich exchange, until we reached a brand she recognised as hers. I then simulated how it would live in use, on shirts, flip-flops and other applications.
-outcome: Sophie loved the result and wrote several thank-you notes about it. A small, close project that shows the same way of working as my larger cases, designing with the client rather than for her.
+outcome: Sophie loved the result and wrote several thank-you notes about it. The logo is still in use on the school's website, five years on. A small, close project that shows the same way of working as my larger cases, designing with the client rather than for her.
 ---
