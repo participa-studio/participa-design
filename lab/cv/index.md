@@ -2,10 +2,10 @@
 layout: cv
 noindex: true
 title: Experience
-person: Bernardo van de Schepop
+person: B. v.d. Schepop
 headline: Service Design and Design Strategy · User Research, Experience Strategy, Design Leadership
 location: Haarlem, Netherlands
-intro: Service designer and design leader with more than 25 years in digital products and services across consumer electronics (Philips TV), mobility (LeasePlan, TomTom), logistics (FedEx), retail (bol.com) and insurance (MAPFRE). More than ten years leading multidisciplinary design and research teams inside international matrix organisations. MSc Design for Interaction, TU Delft, cum laude.
+intro: My name is Bernardo van de Schepop, a service designer and design leader with more than 25 years in digital products and services across consumer electronics (Philips TV), mobility (LeasePlan, TomTom), logistics (FedEx), retail (bol.com) and insurance (MAPFRE). More than ten years leading multidisciplinary design and research teams inside international matrix organisations. MSc Design for Interaction, TU Delft, cum laude.
 pdf:
   updated: October 2026
 competencies:

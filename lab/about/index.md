@@ -2,9 +2,9 @@
 layout: about
 noindex: true
 title: About
-heading: About
-intro: I am Bernardo van de Schepop, a service designer and design leader based in Haarlem. For more than 25 years I have designed digital products and services, and for more than ten I have led multidisciplinary design and research teams inside international organisations.
-throughline: 'One idea runs through my work: designing with people, not for them. It started with my graduation research at TU Delft in 2009, where children shaped a new LEGO play experience, and it continues in how I map services, run co-creation and build teams.'
+heading: 'Why Participa: designing WITH people, not for them'
+intro: 'Participa is the name for a way of working I have followed from the start: designing WITH people, not for them. It began with my graduation research at TU Delft in 2009, where children shaped a new LEGO play experience. It continues in how I map services, run co-creation and build design teams.'
+throughline: 'Participa works on two sides: Participa Design, for organisations, and Participa Studio, for social design.'
 sides:
 - own: design
   name: Participa . Design
@@ -28,10 +28,6 @@ direction: Today I am bringing that corporate experience to NGOs and eco-social 
 facts:
 - label: Based in
   value: Haarlem, the Netherlands
-- label: Education
-  value: MSc Design for Interaction, TU Delft, cum laude
-- label: Languages
-  value: Portuguese (native), English, Dutch, Spanish
 - label: Company
   value: Participa Design Studio
 contact: 'My career in full is under [Experience](/lab/cv/). For work or a conversation, write to [bernardo@schepop.org](mailto:bernardo@schepop.org) or find me on [LinkedIn](https://www.linkedin.com/in/schepop/).'
