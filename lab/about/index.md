@@ -12,8 +12,8 @@ sides:
   url: /
   text: 'Service design, design strategy and design leadership for organisations: end-to-end journeys, service blueprints, design systems and research practices that teams adopt. Experience across consumer electronics (Philips TV), mobility (LeasePlan, TomTom), logistics (FedEx), retail (bol.com) and insurance (MAPFRE).'
   links:
-  - title: Work
-    url: /lab/tip/
+  - title: Cases
+    url: /lab/work/
   - title: Experience
     url: /lab/cv/
 - own: studio
