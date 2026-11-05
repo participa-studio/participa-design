@@ -28,7 +28,6 @@ direction: Today I am bringing that corporate experience to NGOs and eco-social 
 facts:
 - label: Based in
   value: Haarlem, the Netherlands
-- label: Company
-  value: Participa Design Studio
-contact: 'For project inquiries, connect with me on [LinkedIn](https://www.linkedin.com/in/schepop/) or send me an [email](mailto:bernardo@schepop.org).'
+- label: Contact
+  value: Connect on [LinkedIn](https://www.linkedin.com/in/schepop/) or send me an [email](mailto:bernardo@schepop.org).
 ---
