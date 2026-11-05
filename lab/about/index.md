@@ -30,5 +30,5 @@ facts:
   value: Haarlem, the Netherlands
 - label: Company
   value: Participa Design Studio
-contact: 'My career in full is under [Experience](/lab/cv/). Connect with me on [LinkedIn](https://www.linkedin.com/in/schepop/) or [send me an email](mailto:bernardo@schepop.org) for work queries.'
+contact: 'For project inquiries and collaboration, connect with me on [LinkedIn](https://www.linkedin.com/in/schepop/) or send me an [email](mailto:bernardo@schepop.org).'
 ---
