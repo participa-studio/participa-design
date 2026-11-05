@@ -170,5 +170,5 @@ lists:
 - heading: Languages
   text: Portuguese (native), English (fluent, TOEFL iBT 94), Dutch (conversational), Spanish (intermediate).
 - heading: Tools
-  text: Figma (Design, Make, Slides), FigJam, Miro, TheyDo, Claude, standard productivity suites. Conversant with HTML/CSS and front-end standards.
+  text: Figma (Design, Make, Slides), FigJam, Miro, TheyDo, Smaply, Claude, standard productivity suites. Conversant with HTML/CSS and front-end standards.
 ---
