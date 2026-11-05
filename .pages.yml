@@ -1,0 +1,765 @@
+# ─────────────────────────────────────────────────────────────
+# PAGES CMS — the editing screen for participa.design
+# Sign in at https://app.pagescms.org with GitHub and choose this repository.
+# Each page is a form; save, and GitHub publishes the change in a minute or two.
+# merge: true keeps any field the forms do not show (layout, noindex…).
+# The paths point at the lab pages; at launch they move with the pages.
+# Note: this repository is public.
+# ─────────────────────────────────────────────────────────────
+media:
+- name: images
+  label: Images
+  input: images
+  output: /images
+  categories:
+  - image
+- name: files
+  label: Downloads
+  input: files
+  output: /files
+  categories:
+  - document
+settings:
+  content:
+    merge: true
+content:
+- name: pages
+  label: Pages
+  type: group
+  items:
+  - name: home
+    label: Home
+    type: file
+    path: lab/home/index.md
+    fields:
+    - name: title
+      label: Browser tab title
+      type: string
+    - name: statement
+      label: Main title
+      type: text
+    - name: intro
+      label: Intro
+      type: text
+    - name: actions
+      label: Buttons
+      type: object
+      fields: &id001
+      - name: title
+        label: Text
+        type: string
+      - name: url
+        label: Link (e.g. /lab/cv/ or https://…)
+        type: string
+      list: true
+    - name: work_heading
+      label: Heading above the case
+      type: string
+    - name: work_link
+      label: Link under the case
+      type: object
+      fields: *id001
+  - name: about
+    label: About
+    type: file
+    path: lab/about/index.md
+    fields:
+    - name: title
+      label: Browser tab title
+      type: string
+    - name: heading
+      label: Main title
+      type: string
+    - name: intro
+      label: Intro
+      type: text
+    - name: throughline
+      label: Second paragraph
+      type: text
+    - name: direction
+      label: Line above the two panels
+      type: text
+    - name: sides
+      label: The two panels
+      type: object
+      fields:
+      - name: own
+        label: Which side
+        type: select
+        options:
+          values:
+          - design
+          - studio
+      - name: name
+        label: Name
+        type: string
+      - name: tag
+        label: Small label
+        type: string
+      - name: url
+        label: Link
+        type: string
+      - name: text
+        label: Text
+        type: text
+      - name: links
+        label: Links
+        type: object
+        fields: *id001
+        list: true
+      list: true
+    - name: facts
+      label: Facts (label + value)
+      type: object
+      fields:
+      - name: label
+        label: Label
+        type: string
+      - name: value
+        label: Value
+        type: string
+      list: true
+    - name: contact
+      label: Contact line (links as [text](https://…))
+      type: text
+  - name: cv
+    label: Experience
+    type: file
+    path: lab/cv/index.md
+    fields:
+    - name: title
+      label: Browser tab title
+      type: string
+    - name: person
+      label: Name (large title)
+      type: string
+    - name: headline
+      label: Headline
+      type: string
+    - name: location
+      label: Location
+      type: string
+    - name: intro
+      label: Intro
+      type: text
+    - name: pdf
+      label: CV download
+      type: object
+      fields:
+      - name: file
+        label: PDF (leave empty while in preparation)
+        type: file
+        options:
+          media: files
+      - name: updated
+        label: Updated (e.g. November 2026)
+        type: string
+    - name: competencies
+      label: Core competencies
+      type: string
+      list: true
+    - name: experience
+      label: Experience
+      type: object
+      fields:
+      - name: org
+        label: Organisation
+        type: string
+      - name: about
+        label: About the organisation
+        type: string
+      - name: place
+        label: Place
+        type: string
+      - name: link
+        label: Link
+        type: string
+      - name: roles
+        label: Roles
+        type: object
+        fields:
+        - name: title
+          label: Role
+          type: string
+        - name: dates
+          label: Dates
+          type: string
+        - name: points
+          label: Points
+          type: text
+          list: true
+        - name: text
+          label: Text (instead of points)
+          type: text
+        list: true
+      list: true
+    - name: education
+      label: Education
+      type: object
+      fields:
+      - name: title
+        label: Degree
+        type: string
+      - name: org
+        label: School
+        type: string
+      - name: place
+        label: Place
+        type: string
+      - name: dates
+        label: Dates
+        type: string
+      - name: text
+        label: Text
+        type: text
+      list: true
+    - name: lists
+      label: Other lists (certifications, talks, languages…)
+      type: object
+      fields:
+      - name: heading
+        label: Heading
+        type: string
+      - name: text
+        label: Text (instead of items)
+        type: text
+      - name: items
+        label: Items
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: detail
+          label: Detail
+          type: string
+        list: true
+      list: true
+  - name: cases_page
+    label: Cases page
+    type: file
+    path: lab/work/index.md
+    fields:
+    - name: title
+      label: Browser tab title
+      type: string
+    - name: heading
+      label: Main title
+      type: string
+    - name: intro
+      label: Intro
+      type: text
+    - name: empty
+      label: Text when the list is empty
+      type: string
+- name: cases
+  label: Cases
+  type: group
+  items:
+  - name: tip
+    label: TiP — LEGO
+    type: file
+    path: lab/tip/index.md
+    fields:
+    - name: title
+      label: Page title
+      type: string
+      required: true
+    - name: short_title
+      label: Card title (Cases page and home; empty = page title)
+      type: string
+    - name: org
+      label: Organisation
+      type: string
+    - name: years
+      label: Years
+      type: string
+    - name: featured
+      label: Can be the case on the home page
+      type: boolean
+    - name: order
+      label: Position on the list (lower numbers first)
+      type: number
+    - name: cover
+      label: Card image
+      type: image
+      options:
+        media: images
+    - name: cover_alt
+      label: Card image description (for screen readers)
+      type: string
+    - name: lead
+      label: Opening line
+      type: text
+    - name: facts
+      label: Facts (label + value)
+      type: object
+      fields:
+      - name: label
+        label: Label
+        type: string
+      - name: value
+        label: Value
+        type: string
+      list: true
+    - name: photos
+      label: Photos
+      type: object
+      fields:
+      - name: src
+        label: Image
+        type: image
+        options:
+          media: images
+      - name: caption
+        label: Caption
+        type: string
+      list: true
+    - name: challenge
+      label: Challenge
+      type: text
+    - name: approach
+      label: Approach
+      type: text
+    - name: outcome
+      label: Outcome
+      type: text
+    - name: quote
+      label: Quote (one)
+      type: object
+      fields: &id002
+      - name: text
+        label: Quote
+        type: text
+      - name: name
+        label: Name
+        type: string
+      - name: role
+        label: Role
+        type: string
+      - name: place
+        label: Place
+        type: string
+    - name: quotes
+      label: Quotes (two or more; they rotate — use instead of Quote)
+      type: object
+      fields: *id002
+      list: true
+    - name: artefacts
+      label: Downloads
+      type: object
+      fields:
+      - name: label
+        label: Name
+        type: string
+      - name: file
+        label: File (leave empty while in preparation)
+        type: file
+        options:
+          media: files
+      - name: format
+        label: Format (e.g. PDF)
+        type: string
+      - name: status
+        label: Status (e.g. In preparation)
+        type: string
+      list: true
+    - name: note
+      label: Note (links as [text](https://…))
+      type: text
+  - name: leaseplan
+    label: LeasePlan
+    type: file
+    path: lab/leaseplan/index.md
+    fields:
+    - name: title
+      label: Page title
+      type: string
+      required: true
+    - name: short_title
+      label: Card title (Cases page and home; empty = page title)
+      type: string
+    - name: org
+      label: Organisation
+      type: string
+    - name: years
+      label: Years
+      type: string
+    - name: featured
+      label: Can be the case on the home page
+      type: boolean
+    - name: order
+      label: Position on the list (lower numbers first)
+      type: number
+    - name: cover
+      label: Card image
+      type: image
+      options:
+        media: images
+    - name: cover_alt
+      label: Card image description (for screen readers)
+      type: string
+    - name: lead
+      label: Opening line
+      type: text
+    - name: facts
+      label: Facts (label + value)
+      type: object
+      fields:
+      - name: label
+        label: Label
+        type: string
+      - name: value
+        label: Value
+        type: string
+      list: true
+    - name: photos
+      label: Photos
+      type: object
+      fields:
+      - name: src
+        label: Image
+        type: image
+        options:
+          media: images
+      - name: caption
+        label: Caption
+        type: string
+      list: true
+    - name: challenge
+      label: Challenge
+      type: text
+    - name: approach
+      label: Approach
+      type: text
+    - name: outcome
+      label: Outcome
+      type: text
+    - name: quote
+      label: Quote (one)
+      type: object
+      fields: *id002
+    - name: quotes
+      label: Quotes (two or more; they rotate — use instead of Quote)
+      type: object
+      fields: *id002
+      list: true
+    - name: artefacts
+      label: Downloads
+      type: object
+      fields:
+      - name: label
+        label: Name
+        type: string
+      - name: file
+        label: File (leave empty while in preparation)
+        type: file
+        options:
+          media: files
+      - name: format
+        label: Format (e.g. PDF)
+        type: string
+      - name: status
+        label: Status (e.g. In preparation)
+        type: string
+      list: true
+    - name: note
+      label: Note (links as [text](https://…))
+      type: text
+  - name: philips
+    label: Philips TV
+    type: file
+    path: lab/philips/index.md
+    fields:
+    - name: title
+      label: Page title
+      type: string
+      required: true
+    - name: short_title
+      label: Card title (Cases page and home; empty = page title)
+      type: string
+    - name: org
+      label: Organisation
+      type: string
+    - name: years
+      label: Years
+      type: string
+    - name: featured
+      label: Can be the case on the home page
+      type: boolean
+    - name: order
+      label: Position on the list (lower numbers first)
+      type: number
+    - name: cover
+      label: Card image
+      type: image
+      options:
+        media: images
+    - name: cover_alt
+      label: Card image description (for screen readers)
+      type: string
+    - name: lead
+      label: Opening line
+      type: text
+    - name: facts
+      label: Facts (label + value)
+      type: object
+      fields:
+      - name: label
+        label: Label
+        type: string
+      - name: value
+        label: Value
+        type: string
+      list: true
+    - name: photos
+      label: Photos
+      type: object
+      fields:
+      - name: src
+        label: Image
+        type: image
+        options:
+          media: images
+      - name: caption
+        label: Caption
+        type: string
+      list: true
+    - name: challenge
+      label: Challenge
+      type: text
+    - name: approach
+      label: Approach
+      type: text
+    - name: outcome
+      label: Outcome
+      type: text
+    - name: quote
+      label: Quote (one)
+      type: object
+      fields: *id002
+    - name: quotes
+      label: Quotes (two or more; they rotate — use instead of Quote)
+      type: object
+      fields: *id002
+      list: true
+    - name: artefacts
+      label: Downloads
+      type: object
+      fields:
+      - name: label
+        label: Name
+        type: string
+      - name: file
+        label: File (leave empty while in preparation)
+        type: file
+        options:
+          media: files
+      - name: format
+        label: Format (e.g. PDF)
+        type: string
+      - name: status
+        label: Status (e.g. In preparation)
+        type: string
+      list: true
+    - name: note
+      label: Note (links as [text](https://…))
+      type: text
+  - name: fedex
+    label: FedEx
+    type: file
+    path: lab/fedex/index.md
+    fields:
+    - name: title
+      label: Page title
+      type: string
+      required: true
+    - name: short_title
+      label: Card title (Cases page and home; empty = page title)
+      type: string
+    - name: org
+      label: Organisation
+      type: string
+    - name: years
+      label: Years
+      type: string
+    - name: featured
+      label: Can be the case on the home page
+      type: boolean
+    - name: order
+      label: Position on the list (lower numbers first)
+      type: number
+    - name: cover
+      label: Card image
+      type: image
+      options:
+        media: images
+    - name: cover_alt
+      label: Card image description (for screen readers)
+      type: string
+    - name: lead
+      label: Opening line
+      type: text
+    - name: facts
+      label: Facts (label + value)
+      type: object
+      fields:
+      - name: label
+        label: Label
+        type: string
+      - name: value
+        label: Value
+        type: string
+      list: true
+    - name: photos
+      label: Photos
+      type: object
+      fields:
+      - name: src
+        label: Image
+        type: image
+        options:
+          media: images
+      - name: caption
+        label: Caption
+        type: string
+      list: true
+    - name: challenge
+      label: Challenge
+      type: text
+    - name: approach
+      label: Approach
+      type: text
+    - name: outcome
+      label: Outcome
+      type: text
+    - name: quote
+      label: Quote (one)
+      type: object
+      fields: *id002
+    - name: quotes
+      label: Quotes (two or more; they rotate — use instead of Quote)
+      type: object
+      fields: *id002
+      list: true
+    - name: artefacts
+      label: Downloads
+      type: object
+      fields:
+      - name: label
+        label: Name
+        type: string
+      - name: file
+        label: File (leave empty while in preparation)
+        type: file
+        options:
+          media: files
+      - name: format
+        label: Format (e.g. PDF)
+        type: string
+      - name: status
+        label: Status (e.g. In preparation)
+        type: string
+      list: true
+    - name: note
+      label: Note (links as [text](https://…))
+      type: text
+  - name: bol
+    label: bol.com
+    type: file
+    path: lab/bol/index.md
+    fields:
+    - name: title
+      label: Page title
+      type: string
+      required: true
+    - name: short_title
+      label: Card title (Cases page and home; empty = page title)
+      type: string
+    - name: org
+      label: Organisation
+      type: string
+    - name: years
+      label: Years
+      type: string
+    - name: featured
+      label: Can be the case on the home page
+      type: boolean
+    - name: order
+      label: Position on the list (lower numbers first)
+      type: number
+    - name: cover
+      label: Card image
+      type: image
+      options:
+        media: images
+    - name: cover_alt
+      label: Card image description (for screen readers)
+      type: string
+    - name: lead
+      label: Opening line
+      type: text
+    - name: facts
+      label: Facts (label + value)
+      type: object
+      fields:
+      - name: label
+        label: Label
+        type: string
+      - name: value
+        label: Value
+        type: string
+      list: true
+    - name: photos
+      label: Photos
+      type: object
+      fields:
+      - name: src
+        label: Image
+        type: image
+        options:
+          media: images
+      - name: caption
+        label: Caption
+        type: string
+      list: true
+    - name: challenge
+      label: Challenge
+      type: text
+    - name: approach
+      label: Approach
+      type: text
+    - name: outcome
+      label: Outcome
+      type: text
+    - name: quote
+      label: Quote (one)
+      type: object
+      fields: *id002
+    - name: quotes
+      label: Quotes (two or more; they rotate — use instead of Quote)
+      type: object
+      fields: *id002
+      list: true
+    - name: artefacts
+      label: Downloads
+      type: object
+      fields:
+      - name: label
+        label: Name
+        type: string
+      - name: file
+        label: File (leave empty while in preparation)
+        type: file
+        options:
+          media: files
+      - name: format
+        label: Format (e.g. PDF)
+        type: string
+      - name: status
+        label: Status (e.g. In preparation)
+        type: string
+      list: true
+    - name: note
+      label: Note (links as [text](https://…))
+      type: text
