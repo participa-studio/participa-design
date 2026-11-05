@@ -2,20 +2,17 @@
 layout: about
 noindex: true
 title: About
-heading: 'Designing WITH people, not for them'
+heading: Designing WITH people, not for them
 intro: 'Participa is the name for a way of working I have followed from the start: designing WITH people, not for them. It began with my graduation research at TU Delft in 2009, where children shaped a new LEGO play experience. It continues in how I map services, run co-creation and build design teams.'
+practice: 'Service design, design strategy and design leadership for organisations: end-to-end journeys, service blueprints, design systems and research practices that teams adopt. Experience across consumer electronics (Philips TV), mobility (LeasePlan, TomTom), logistics (FedEx), retail (bol.com) and insurance (MAPFRE).'
+practice_links:
+- title: Cases
+  url: /lab/work/
+- title: Experience
+  url: /lab/cv/
+direction: Today I am bringing that corporate experience to NGOs and eco-social organisations, where the same methods serve communities and the environment.
 throughline: 'Participa works on two sides: Participa Design, for organisations, and Participa Studio, for social design.'
 sides:
-- own: design
-  name: Participa . Design
-  tag: Commercial work
-  url: /
-  text: 'Service design, design strategy and design leadership for organisations: end-to-end journeys, service blueprints, design systems and research practices that teams adopt. Experience across consumer electronics (Philips TV), mobility (LeasePlan, TomTom), logistics (FedEx), retail (bol.com) and insurance (MAPFRE).'
-  links:
-  - title: Cases
-    url: /lab/work/
-  - title: Experience
-    url: /lab/cv/
 - own: studio
   name: Participa . Studio
   tag: Social enterprise work
@@ -24,7 +21,6 @@ sides:
   links:
   - title: Visit participa.studio
     url: https://participa.studio/
-direction: Today I am bringing that corporate experience to NGOs and eco-social organisations, where the same methods serve communities and the environment.
 facts:
 - label: Based in
   value: Haarlem, the Netherlands
