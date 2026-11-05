@@ -5,3 +5,4 @@
    To override a shared token for this site only, set it here, e.g.
    ========================================================== */
  :root { --colour-accent: #75D5DC; }   /* option A, 5 Nov 2026 (was #9EE6FF) */
+ :root { --colour-here: #BD483D; }   /* menu hover and the page you are on: red, as on Studio (3.0:1 on teal), 5 Nov 2026 (was cobalt #0050FF) */
