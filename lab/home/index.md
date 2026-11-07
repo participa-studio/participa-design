@@ -3,7 +3,7 @@ layout: home
 noindex: true
 title: Home
 statement: Strategic and service design leadership
-intro: I am Bernardo van de Schepop, a service designer and design leader based in Haarlem, with more than 25 years in digital products and services.
+intro: I map services, set the design direction and build the teams that carry it. More than 25 years in digital products and services. Bernardo van de Schepop, based in Haarlem.
 actions:
 - title: Cases
   url: /lab/work/
