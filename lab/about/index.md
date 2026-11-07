@@ -3,7 +3,7 @@ layout: about
 noindex: true
 title: About
 heading: Designing <mark>with</mark> people, not for them
-intro: 'Participa.design is where I offer service design, design strategy and design leadership to organisations. The name comes from a way of working I have followed from the start: designing with people, not for them.'
+intro: 'Participa.design is where I offer service design, design strategy and design leadership to organisations. The name comes from my way of working: designing with people, not for them.'
 practice: 'I have always been interested in collaboration as a main design approach. In the early stages of my internet career, I brought users in to test products with Wizard of Oz protocols and systematic usability testing. Fast forward to my TU Delft research with LEGO Concept Studio (2009), where a series of co-creation sessions with children shaped a new LEGO play experience. Over more than 25 years, this approach has shaped how I map services, run co-creation and build design teams: end-to-end journeys, service blueprints, design systems and research practices that teams adopt. Sectors: consumer electronics (Philips TV), mobility (LeasePlan, TomTom), logistics (FedEx), retail (bol.com) and insurance (MAPFRE).'
 practice_links:
 - title: Cases
