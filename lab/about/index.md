@@ -2,7 +2,7 @@
 layout: about
 noindex: true
 title: About
-heading: Designing WITH people, not for them
+heading: 'Designing <mark>with</mark> people, not for them'
 intro: 'Participa is the name for a way of working I have followed from the start: designing WITH people, not for them. It began with my graduation research at TU Delft in 2009, where children shaped a new LEGO play experience. It continues in how I map services, run co-creation and build design teams.'
 practice: 'Service design, design strategy and design leadership for organisations: end-to-end journeys, service blueprints, design systems and research practices that teams adopt. Experience across consumer electronics (Philips TV), mobility (LeasePlan, TomTom), logistics (FedEx), retail (bol.com) and insurance (MAPFRE).'
 practice_links:
