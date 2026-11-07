@@ -276,6 +276,9 @@ content:
     - name: short_title
       label: Card title (Cases page and home; empty = page title)
       type: string
+    - name: summary
+      label: 'Card line (optional: replaces organisation and years on the card)'
+      type: string
     - name: org
       label: Organisation
       type: string
@@ -387,6 +390,9 @@ content:
     - name: short_title
       label: Card title (Cases page and home; empty = page title)
       type: string
+    - name: summary
+      label: 'Card line (optional: replaces organisation and years on the card)'
+      type: string
     - name: org
       label: Organisation
       type: string
@@ -485,6 +491,9 @@ content:
       required: true
     - name: short_title
       label: Card title (Cases page and home; empty = page title)
+      type: string
+    - name: summary
+      label: 'Card line (optional: replaces organisation and years on the card)'
       type: string
     - name: org
       label: Organisation
@@ -585,6 +594,9 @@ content:
     - name: short_title
       label: Card title (Cases page and home; empty = page title)
       type: string
+    - name: summary
+      label: 'Card line (optional: replaces organisation and years on the card)'
+      type: string
     - name: org
       label: Organisation
       type: string
@@ -683,6 +695,9 @@ content:
       required: true
     - name: short_title
       label: Card title (Cases page and home; empty = page title)
+      type: string
+    - name: summary
+      label: 'Card line (optional: replaces organisation and years on the card)'
       type: string
     - name: org
       label: Organisation
