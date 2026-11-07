@@ -17,7 +17,7 @@ sides:
   name: Participa . Studio
   tag: Social enterprise work
   url: https://participa.studio/
-  text: Since 2023, it has developed methods such as SEED, with its Interloop visual framework, and experiments such as ReFloat and the Social Enterprise Canvas, so that communities can co-create social and environmental change.
+  text: Since 2023, it has developed methods such as [SEED](https://participa.studio/lab/seed/), with its Interloop visual framework, and experiments such as [ReFloat](https://participa.studio/lab/refloat/) and the [Social Enterprise Canvas](https://participa.studio/lab/social-enterprise-canvas/), so that communities can co-create social and environmental change.
   links:
   - title: Visit participa.studio
     url: https://participa.studio/
