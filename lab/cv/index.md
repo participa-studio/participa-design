@@ -32,7 +32,7 @@ experience:
     - Promoted one senior designer to lead to close persistent management gaps; resolved team conflicts when the design job-scale framework was levelled with the development community.
     - Connected the team to the company-wide Journey Management effort, mapping capabilities and dependencies with Customer Services, FinTech and warehouse teams.
 - org: Participa Studio
-  about: Independent practice run alongside corporate roles.
+  about: Independent practice run alongside commercial work.
   place: Haarlem, Netherlands
   roles:
   - title: Service, Strategy and Social Design
