@@ -21,7 +21,7 @@ highlights:
 - org: FedEx
   role: Design Manager
   link: /lab/fedex/
-- org: Philips TV
+- org: Philips
   role: Creative Director, UX
   link: /lab/philips/
 highlights_link:

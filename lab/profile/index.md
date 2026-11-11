@@ -10,7 +10,7 @@ portrait: /images/portrait-linkedin.jpg
 portrait_square: /images/portrait-linkedin-square.jpg
 portrait_alt: Bernardo vd Schepop
 location: Haarlem, the Netherlands
-practice: 'I have always been interested in collaboration as a main design approach. In the early stages of my internet career, I brought users in to test products with Wizard of Oz protocols and systematic usability testing. Fast forward to my TU Delft research with LEGO Concept Studio (2009), where a series of co-creation sessions with children shaped a new LEGO play experience. Over more than 25 years, this approach has shaped how I map services, run co-creation and build design teams: end-to-end journeys, service blueprints, design systems and research practices that teams adopt. Sectors: consumer electronics (Philips TV), mobility (LeasePlan, TomTom), logistics (FedEx), retail (bol.) and insurance (MAPFRE). Today I bring that experience to NGOs and eco-social organisations, where the same methods serve communities and the environment.'
+practice: 'I have always been interested in collaboration as a main design approach. In the early stages of my internet career, I brought users in to test products with Wizard of Oz protocols and systematic usability testing. Fast forward to my TU Delft research with LEGO Concept Studio (2009), where a series of co-creation sessions with children shaped a new LEGO play experience. Over more than 25 years, this approach has shaped how I map services, run co-creation and build design teams: end-to-end journeys, service blueprints, design systems and research practices that teams adopt. Sectors: consumer electronics (Philips), mobility (LeasePlan, TomTom), logistics (FedEx), retail (bol.) and insurance (MAPFRE). Today I bring that experience to NGOs and eco-social organisations, where the same methods serve communities and the environment.'
 experience_heading: Selected experience
 experience:
 - org: bol.
@@ -28,7 +28,7 @@ experience:
   role: Design Manager and Chapter Lead
   result: One customer journey framework, adopted across the organisation, at the core of the FedEx–TNT digital integration.
   link: /lab/fedex/
-- org: Philips TV
+- org: Philips
   years: 2012 – 2016
   role: Creative Director, User Experience
   result: Moved 13 designers across Amsterdam, Bangalore and Taipei from waterfall to iterating with development. The shift produced the first Philips Android TVs.

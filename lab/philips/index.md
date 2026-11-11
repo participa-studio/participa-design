@@ -1,17 +1,17 @@
 ---
 layout: case
 noindex: true
-title: Philips TV — From waterfall to the first Android TVs
-org: Philips TV / TP Vision
+title: Philips — From waterfall to the first Android TVs
+org: Philips / TP Vision
 years: 2012–2016
 cover: /images/placeholders/placeholder-07.jpg   # placeholder: replace before launch
 cover_alt: Placeholder image
 order: 15
 featured: true
-lead: Four years directing user experience for Philips TV during the TP Vision joint venture, as one design organisation across Amsterdam, Bangalore and Taipei.
+lead: Four years directing user experience for Philips during the TP Vision joint venture, as one design organisation across Amsterdam, Bangalore and Taipei.
 facts:
 - label: Organisation
-  value: Philips TV / TP Vision, Amsterdam (joint venture of TPV Technology and Royal Philips)
+  value: Philips / TP Vision, Amsterdam (joint venture of TPV Technology and Royal Philips)
 - label: Years
   value: May 2012 – Jul 2016
 - label: Role
@@ -25,7 +25,7 @@ photos:
   src: /images/placeholders/placeholder-05.jpg
 - caption: One team across Amsterdam, Bangalore and Taipei
   src: /images/placeholders/placeholder-06.jpg
-challenge: When TP Vision took over the Philips TV business, user experience sat in teams in the Netherlands, India and Taiwan, the Taipei team serving TPV's Asian headquarters. Designers worked in a waterfall model that resisted iteration, and the TV and its companion apps needed to work as one experience.
+challenge: When TP Vision took over the Philips television business, user experience sat in teams in the Netherlands, India and Taiwan, the Taipei team serving TPV's Asian headquarters. Designers worked in a waterfall model that resisted iteration, and the TV and its companion apps needed to work as one experience.
 approach: I directed design from the Netherlands while shaping the local teams in Bangalore and Taipei during the joint-venture formation. I moved designers from the waterfall model to iterating and delivering software together with development teams, shaped a roadmap of more than two years, worked with hardware design to harmonise the TV and companion-app experiences, and travelled to Google in California to run the Android TV project.
 outcome: 'A distributed UX organisation of 13 designers: 5 in Amsterdam, 5 in Bangalore and 3 in Taipei. The shift to iterating and delivering with development teams produced the first Philips Android TVs, making Philips the first European TV brand to bring Android-powered TVs to market.'
 quote:
