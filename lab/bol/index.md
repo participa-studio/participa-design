@@ -4,6 +4,8 @@ noindex: true
 title: 'bol. — Leading design for Core Capabilities'
 org: bol.
 years: '2025'
+cover: /images/placeholders/placeholder-01.jpg   # placeholder: replace before launch
+cover_alt: Placeholder image
 order: 5
 featured: false
 lead: An eight-month interim mandate leading design for Core Capabilities, making visible how its domains connect in one end-to-end experience.
@@ -18,9 +20,13 @@ facts:
   value: Journey management · Experience mapping · Design leadership
 photos:
 - caption: 'What I walked into: core teams seen as independent domains'
+  src: /images/placeholders/placeholder-01.jpg
 - caption: 'First attempt: every core-team experience moment in TheyDo'
+  src: /images/placeholders/placeholder-02.jpg
 - caption: BXF, the Bol Experience Framework
+  src: /images/placeholders/placeholder-09.jpg
 - caption: The end-to-end experience across Core Capabilities domains
+  src: /images/placeholders/placeholder-08.jpg
 challenge: 'The Core Capabilities teams were seen as independent domains, each owning its own slice, with no felt need to align. Customers, however, move fluidly across those domains: internally the boundaries were real, externally they did not exist.'
 approach: I led a team of 10 designers and 1 lead, and promoted a senior designer to lead to close management gaps. A first attempt brought every core-team experience moment into TheyDo; it proved technically heavy and too early. I then mapped the experience end to end in the Bol Experience Framework (BXF), with Customer Services, FinTech and warehouse teams, and connected the team to the company-wide Journey Management effort.
 outcome: 'The management team agreed on the experiences shared across its domains and started a vision mapping for the whole group, challenging its own position in the layering of the organisation. The work raised the next question, which I put forward: a shared family of personas to ground scenarios across journeys.'

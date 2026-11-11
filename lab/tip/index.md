@@ -4,6 +4,8 @@ noindex: true
 title: TiP — Tangible Interactions for Playing
 org: LEGO Concept Lab
 years: '2009'
+cover: /images/placeholders/placeholder-06.jpg   # placeholder: replace before launch
+cover_alt: Placeholder image
 order: 20
 featured: true
 lead: A new play experience joining LEGO building with digital elements, designed in close contact with children at LEGO Concept Lab.
@@ -20,10 +22,15 @@ facts:
 
 photos:
   - caption: "Research box: task cards for children and parents (Contextmapping)"
+    src: /images/placeholders/placeholder-06.jpg
   - caption: Play session at Concept Lab with children
+    src: /images/placeholders/placeholder-04.jpg
   - caption: Small-scale LEGO city with helicopters and heliports as play carriers
+    src: /images/placeholders/placeholder-03.jpg
   - caption: LEGO-built viewer showing augmented reality over the models
+    src: /images/placeholders/placeholder-05.jpg
   - caption: "Final play session: children moving AR plates between scenes"
+    src: /images/placeholders/placeholder-02.jpg
 
 challenge: "LEGO offered a great physical building experience, and digital play through games such as LEGO Universe. A play experience connecting the two was still to be found. Concept Lab asked for design-led research into how digital elements could enrich LEGO's physical play, for boys aged 5 to 11. The research asked what role technology plays in children's play experiences: what is fun about technology, how children perceive it, and how they play with it."
 approach: A child-centred, vision-led process. Contextmapping research with parents as co-researchers, then four play iterations with children, building every prototype in LEGO.
