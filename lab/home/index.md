@@ -12,7 +12,7 @@ actions:
 - title: Contact
   url: /lab/contact/
 highlights:
-- org: bol.com
+- org: bol.
   role: Head of Design
   link: /lab/bol/
 - org: LeasePlan

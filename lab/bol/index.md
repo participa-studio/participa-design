@@ -1,15 +1,15 @@
 ---
 layout: case
 noindex: true
-title: 'bol.com — BXF: mapping interdependencies in Core Capabilities'
-org: bol.com
+title: 'bol. — Leading design for Core Capabilities'
+org: bol.
 years: '2025'
 order: 5
 featured: false
 lead: An eight-month interim mandate leading design for Core Capabilities, making visible how its domains connect in one end-to-end experience.
 facts:
 - label: Organisation
-  value: bol.com, Utrecht
+  value: bol., Utrecht
 - label: Years
   value: May 2025 – Dec 2025
 - label: Role

@@ -708,7 +708,7 @@ content:
       label: Note (links as [text](https://…))
       type: text
   - name: bol
-    label: bol.com
+    label: bol.
     type: file
     path: lab/bol/index.md
     fields:
