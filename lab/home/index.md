@@ -3,7 +3,7 @@ layout: home
 noindex: true
 title: Home
 statement: Strategic and service design leadership
-intro: I map services, set the design direction and build the teams that carry it. More than 25 years in digital products and services. Bernardo vd Schepop, based in Haarlem.
+intro: I build design teams, set the design direction and map how services work from end to end. More than 25 years in digital products and services. Bernardo vd Schepop, based in Haarlem.
 actions:
 - title: Work
   url: /lab/work/

@@ -4,7 +4,7 @@ noindex: true
 title: Profile
 person: Bernardo vd Schepop
 headline: Strategic and service design leadership
-intro: I am a service designer and design leader with more than 25 years in digital products and services, and more than ten years leading multidisciplinary design and research teams in international organisations. I map services, set the design direction and build the teams that carry it.
+intro: I am a service designer and design leader with more than 25 years in digital products and services, and more than ten years leading multidisciplinary design and research teams in international organisations. I build design teams, set the design direction and map how services work from end to end.
 name_line: My practice is called Participa Design because the best way to design for people is <mark>with</mark> them.
 portrait: /images/portrait-linkedin.jpg
 portrait_square: /images/portrait-linkedin-square.jpg
