@@ -42,7 +42,7 @@ quote:
   role: Company mentor, LEGO Concept Lab
   place: Billund, Denmark
 
-note: Commissioned project undertaken through the TU Delft graduation programme (MSc Design for Interaction, 2009). The thesis is publicly available in the TU Delft repository [link to be confirmed].
+note: Commissioned project undertaken through the TU Delft graduation programme (MSc Design for Interaction, 2009). The thesis is publicly available in the TU Delft repository.
 
 artefacts:
   - label: TiP Insight Cards book
