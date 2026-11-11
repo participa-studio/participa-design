@@ -6,4 +6,5 @@
    ========================================================== */
  :root { --colour-accent: #75D5DC; }   /* option A, 5 Nov 2026 (was #9EE6FF) */
  :root { --colour-here: #BD483D; }   /* menu hover and the page you are on: red, as on Studio (3.0:1 on teal), 5 Nov 2026 (was cobalt #0050FF) */
- :root { --colour-marker: rgba(255, 255, 255, 0.6); }   /* marker behind "with" on About: white at 60% (was the Studio yellow #F6DF5B), 7 Nov 2026 */
+ :root { --colour-marker: rgba(255, 255, 255, 0.4); }   /* marker behind "with": white at 40% (11 Nov; was 60%) (was the Studio yellow #F6DF5B), 7 Nov 2026 */
+:root { --colour-highlight: rgba(255,255,255,0.15); }   /* home highlights panel, 11 Nov 2026 */

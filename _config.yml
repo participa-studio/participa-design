@@ -14,11 +14,11 @@ exclude:
 
 participa:
   core: https://participa-studio.github.io/participa-core
-  version: 20261111-1          # raise this after every core change
+  version: 20261111-2          # raise this after every core change
 
   title: P A R T I C I P A º D E S I G N
   og_title: Participa Design
-  description: "Participa Design: the service and participatory design portfolio of Bernardo van de Schepop."
+  description: "Participa Design: the service and participatory design portfolio of Bernardo vd Schepop."
 
   own: design                  # which logo is ours
   name: Design                 # label next to our logo
@@ -32,13 +32,13 @@ participa:
     url: https://participa.studio/lab/home/       # lab: sister logo opens the other lab home (back to https://participa.studio/ at launch)
 
   nav:
-    - title: Cases
+    - title: Work
       url: /lab/work/
       layouts: [case]
-    - title: Experience
-      url: /lab/cv/
-    - title: About
-      url: /lab/about/
+    - title: Profile
+      url: /lab/profile/
+    - title: Contact
+      url: /lab/contact/
 
   kvk: "42023602"
   instagram: https://www.instagram.com/participa.design/

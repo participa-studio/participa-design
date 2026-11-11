@@ -49,9 +49,27 @@ content:
         label: Text
         type: string
       - name: url
-        label: Link (e.g. /lab/cv/ or https://…)
+        label: Link (e.g. /lab/profile/ or https://…)
         type: string
       list: true
+    - name: highlights
+      label: Company panel (beside the main title)
+      type: object
+      fields:
+      - name: org
+        label: Company
+        type: string
+      - name: role
+        label: Role
+        type: string
+      - name: link
+        label: Link to the case
+        type: string
+      list: true
+    - name: highlights_link
+      label: Link at the bottom of the panel
+      type: object
+      fields: *id001
     - name: work_heading
       label: Heading above the case
       type: string
@@ -59,34 +77,86 @@ content:
       label: Link under the case
       type: object
       fields: *id001
-  - name: about
-    label: About
+  - name: profile
+    label: Profile
     type: file
-    path: lab/about/index.md
+    path: lab/profile/index.md
     fields:
     - name: title
       label: Browser tab title
       type: string
-    - name: heading
-      label: Main title
+    - name: person
+      label: Name (large title)
+      type: string
+    - name: headline
+      label: Headline
+      type: string
+    - name: portrait
+      label: Portrait (upright, 4:5)
+      type: image
+      options:
+        media: images
+    - name: portrait_square
+      label: Portrait for phones (square crop on the face)
+      type: image
+      options:
+        media: images
+    - name: portrait_alt
+      label: Portrait description (for screen readers)
       type: string
     - name: intro
-      label: Intro
+      label: Introduction
       type: text
+    - name: name_line
+      label: Line on the name Participa
+      type: text
+    - name: location
+      label: Location
+      type: string
     - name: practice
-      label: What this site offers
+      label: Longer text (links as [text](https://…))
       type: text
-    - name: practice_links
-      label: Links under that text
+    - name: experience_heading
+      label: Heading above the experience
+      type: string
+    - name: experience
+      label: Experience
       type: object
-      fields: *id001
+      fields:
+      - name: org
+        label: Organisation
+        type: string
+      - name: years
+        label: Years
+        type: string
+      - name: role
+        label: Role
+        type: string
+      - name: result
+        label: Result line
+        type: text
+      - name: link
+        label: Link to the case
+        type: string
       list: true
-    - name: direction
-      label: Direction line
+    - name: earlier
+      label: Line under the experience
       type: text
-    - name: throughline
-      label: Line leading into the sister panel
-      type: text
+    - name: pdf
+      label: CV download
+      type: object
+      fields:
+      - name: file
+        label: PDF (leave empty while in preparation)
+        type: file
+        options:
+          media: files
+      - name: updated
+        label: Updated (e.g. November 2026)
+        type: string
+      - name: note
+        label: Line under the box
+        type: string
     - name: sides
       label: Sister panel
       type: object
@@ -116,135 +186,48 @@ content:
         fields: *id001
         list: true
       list: true
-    - name: facts
-      label: Facts (label + value)
-      type: object
-      fields:
-      - name: label
-        label: Label
-        type: string
-      - name: value
-        label: Value
-        type: string
-      list: true
     - name: contact
-      label: Contact line (links as [text](https://…))
+      label: Closing line (links as [text](https://…))
       type: text
-  - name: cv
-    label: Experience
+  - name: contact
+    label: Contact
     type: file
-    path: lab/cv/index.md
+    path: lab/contact/index.md
     fields:
     - name: title
       label: Browser tab title
       type: string
-    - name: person
-      label: Name (large title)
-      type: string
-    - name: headline
-      label: Headline
-      type: string
-    - name: location
-      label: Location
+    - name: heading
+      label: Main title
       type: string
     - name: intro
       label: Intro
       type: text
-    - name: pdf
-      label: CV download
-      type: object
-      fields:
-      - name: file
-        label: PDF (leave empty while in preparation)
-        type: file
-        options:
-          media: files
-      - name: updated
-        label: Updated (e.g. November 2026)
-        type: string
-    - name: competencies
-      label: Core competencies
-      type: string
-      list: true
-    - name: experience
-      label: Experience
-      type: object
-      fields:
-      - name: org
-        label: Organisation
-        type: string
-      - name: about
-        label: About the organisation
-        type: string
-      - name: place
-        label: Place
-        type: string
-      - name: link
-        label: Link
-        type: string
-      - name: roles
-        label: Roles
-        type: object
-        fields:
-        - name: title
-          label: Role
-          type: string
-        - name: dates
-          label: Dates
-          type: string
-        - name: points
-          label: Points
-          type: text
-          list: true
-        - name: text
-          label: Text (instead of points)
-          type: text
-        list: true
-      list: true
-    - name: education
-      label: Education
+    - name: offers
+      label: Offers
       type: object
       fields:
       - name: title
-        label: Degree
-        type: string
-      - name: org
-        label: School
-        type: string
-      - name: place
-        label: Place
-        type: string
-      - name: dates
-        label: Dates
+        label: Title
         type: string
       - name: text
         label: Text
         type: text
-      list: true
-    - name: lists
-      label: Other lists (certifications, talks, languages…)
-      type: object
-      fields:
-      - name: heading
-        label: Heading
+      - name: subject
+        label: Email subject
         type: string
-      - name: text
-        label: Text (instead of items)
-        type: text
-      - name: items
-        label: Items
-        type: object
-        fields:
-        - name: title
-          label: Title
-          type: string
-        - name: detail
-          label: Detail
-          type: string
-        list: true
+      - name: button
+        label: Button text
+        type: string
       list: true
+    - name: other_heading
+      label: Closing heading
+      type: string
+    - name: other
+      label: Closing line (links as [text](https://…))
+      type: text
   - name: cases_page
-    label: Cases page
+    label: Work page
     type: file
     path: lab/work/index.md
     fields:
