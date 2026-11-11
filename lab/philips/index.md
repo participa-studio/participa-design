@@ -28,5 +28,4 @@ quote:
   name: Jamie Teresuk
   role: User Experience Lead, TP Vision
   place: Amsterdam, Netherlands
-note: Images to follow.
 ---

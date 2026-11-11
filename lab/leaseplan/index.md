@@ -30,5 +30,4 @@ quote:
   name: Shirsha Ganguly, PhD
   role: Senior UX Researcher, LeasePlan
   place: Amsterdam, Netherlands
-note: Work samples from LeasePlan Digital, 2018–2023. Images to follow.
 ---
