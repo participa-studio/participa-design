@@ -14,13 +14,16 @@ exclude:
 
 participa:
   core: https://participa-studio.github.io/participa-core
-  version: 20261111-44          # raise this after every core change
+  version: 20261111-45          # raise this after every core change
   goo: false                   # replaced by the 8s wave (12 Nov 2026); core js/goo.js kept
   sdots: "8"                   # hover: the Studio wave with the .design 8 (12 Nov 2026; core js/sdots.js)
 
   title: P A R T I C I P A º D E S I G N
-  og_title: Participa Design
-  description: "Participa Design: the service and participatory design portfolio of Bernardo vd Schepop."
+  og_title: "Bernardo vd Schepop · Participa Design"
+  description: "I build design teams, set the design direction and map how services work from end to end."
+  og_site: "Participa Design"
+  og_image: https://participa.design/images/og-card.png   # share preview card, 1200 x 630 (12 Nov 2026)
+  og_image_alt: "Participa Design: Bernardo vd Schepop, with the Participa 8 on teal"
 
   own: design                  # which logo is ours
   name: Design                 # label next to our logo
