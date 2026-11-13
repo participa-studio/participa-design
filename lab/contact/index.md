@@ -19,5 +19,5 @@ offers:
   button: Plan a session
 other_heading: Prefer to write freely?
 other: Send me an [email](mailto:bernardo@schepop.org) or say hello on [LinkedIn](https://www.linkedin.com/in/schepop/).
-rights: All material on this site is © Participa Design Studio, unless otherwise noted.
+rights: Text and images by Participa Design Studio, unless otherwise noted. Client work shown here belongs with the organisations named on each case.
 ---
