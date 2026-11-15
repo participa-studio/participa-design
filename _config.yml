@@ -23,7 +23,7 @@ participa:
   description: "I build design teams, set the design direction and map how services work from end to end."
   og_site: "Participa Design"
   og_image: https://participa.design/images/og-card.png   # share preview card, 1200 x 630 (12 Nov 2026)
-  og_image_alt: "Participa Design: Bernardo vd Schepop, with the Participa 8 on teal"
+  og_image_alt: "Participa Design: Bernardo van de Schepop, with the Participa 8 on teal"
 
   own: design                  # which logo is ours
   name: Design                 # label next to our logo
