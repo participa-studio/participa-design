@@ -9,5 +9,3 @@
  :root { --colour-marker: rgba(255, 255, 255, 0.4); }   /* marker behind "with": white at 40% (11 Nov; was 60%) (was the Studio yellow #F6DF5B), 7 Nov 2026 */
 :root { --colour-highlight: rgba(255,255,255,0.15); }   /* home highlights panel, 11 Nov 2026 */
 
-/* Profile: space between the Studio card and the "Get in touch" line (16 Nov 2026) */
-.profile__sides + .about__contact { margin-top: var(--space-6); }
