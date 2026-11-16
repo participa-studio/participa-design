@@ -32,5 +32,5 @@ quote:
   text: Bernardo is able to see not only minute design details one needs to when designing a complex platform, but also how to manage an autonomous multi-department, cross-continental international team to be able to create a cohesive vision business-wide.
   name: Jamie Teresuk
   role: User Experience Lead, TP Vision
-  place: Amsterdam, Netherlands
+  place: Amsterdam, the Netherlands
 ---

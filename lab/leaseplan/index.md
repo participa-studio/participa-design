@@ -36,5 +36,5 @@ quote:
   text: His perspective and knowledge of the craft has helped build design and user experience as one of the cornerstones in a product driven environment.
   name: Shirsha Ganguly, PhD
   role: Senior UX Researcher, LeasePlan
-  place: Amsterdam, Netherlands
+  place: Amsterdam, the Netherlands
 ---
