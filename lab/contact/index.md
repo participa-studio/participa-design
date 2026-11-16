@@ -18,6 +18,6 @@ offers:
   subject: Workshop or talk
   button: Plan a session
 other_heading: Prefer to write freely?
-other: Send me an [email](mailto:bernardo@schepop.org) or say hello on [LinkedIn](https://www.linkedin.com/in/schepop/).
+other: 'Send me an [email](mailto:bernardo@schepop.org) or say hello on [LinkedIn](https://www.linkedin.com/in/schepop/).<br><br>Based in Haarlem, the Netherlands. Open to hybrid and remote work across Europe.'
 rights: Text and images by Participa Design Studio, unless otherwise noted. Client work shown here belongs with the organisations named on each case.
 ---
