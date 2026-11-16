@@ -42,7 +42,7 @@ sides:
   name: Participa . Studio
   tag: Participatory and social design
   url: https://participa.studio/lab/home/   # lab: back to https://participa.studio/ at launch
-  text: "Since 2022, my space for design for the common good, run in parallel with my commercial work: methods and experiments shaped with the people they serve."
+  text: "Since 2022, my space for design for the common good, run in parallel with my commercial work: methods and experiments shaped with the people they serve. Some pieces are finished; others are still in progress."
   links:
   - title: Visit participa.studio
     url: https://participa.studio/lab/home/   # lab: back to https://participa.studio/ at launch
