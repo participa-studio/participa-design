@@ -3,7 +3,7 @@ layout: case
 noindex: true
 title: Philips — From waterfall to the first Android TVs
 org: Philips / TP Vision
-years: 2012–2016
+years: 2012 – 2016
 cover: /images/placeholders/placeholder-07.jpg   # placeholder: replace before launch
 cover_alt: Placeholder image
 order: 15

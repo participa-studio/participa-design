@@ -3,7 +3,7 @@ layout: case
 noindex: true
 title: FedEx — One customer journey for FedEx and TNT
 org: FedEx Digital International
-years: 2016–2018
+years: 2016 – 2018
 cover: /images/placeholders/placeholder-03.jpg   # placeholder: replace before launch
 cover_alt: Placeholder image
 order: 12

@@ -3,7 +3,7 @@ layout: case
 noindex: true
 title: "LeasePlan Digital — E2E NGDX: Next Generation Digital Experience"
 org: LeasePlan Digital
-years: 2018–2023
+years: 2018 – 2023
 cover: /images/placeholders/placeholder-09.jpg   # placeholder: replace before launch
 cover_alt: Placeholder image
 order: 10
