@@ -40,9 +40,9 @@ pdf:
 sides:
 - own: studio
   name: Participa . Studio
-  tag: Social enterprise work
+  tag: Participatory and social design
   url: https://participa.studio/lab/home/   # lab: back to https://participa.studio/ at launch
-  text: "Since 2022, Participa Studio has explored methods such as [SEED](https://participa.studio/lab/seed/), with its Interloop visual framework, and experiments such as [ReFloat](https://participa.studio/lab/refloat/) and the [Social Enterprise Canvas](https://participa.studio/lab/social-enterprise-canvas/), testing how communities can co-create social and environmental change. Some pieces are finished; others are still in progress."
+  text: "Since 2022, my space for design for the common good, run in parallel with my commercial work: methods and experiments shaped with the people they serve."
   links:
   - title: Visit participa.studio
     url: https://participa.studio/lab/home/   # lab: back to https://participa.studio/ at launch
