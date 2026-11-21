@@ -33,7 +33,6 @@ experience:
   role: Creative Director, User Experience
   result: Moved 13 designers across Amsterdam, Bangalore and Taipei from waterfall to iterating with development. The shift produced the first Philips Android TVs.
   link: /lab/philips/
-earlier: Earlier work includes TomTom, MAPFRE and Petrobras, and my research with LEGO Concept Lab.
 pdf:
   updated: October 2026
   note: The full career, education, certifications and speaking.
