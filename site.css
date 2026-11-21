@@ -9,3 +9,8 @@
  :root { --colour-marker: rgba(255, 255, 255, 0.4); }   /* marker behind "with": white at 40% (11 Nov; was 60%) (was the Studio yellow #F6DF5B), 7 Nov 2026 */
 :root { --colour-highlight: rgba(255,255,255,0.15); }   /* home highlights panel, 11 Nov 2026 */
 
+
+/* Reading option on .design (21 Nov 2026): the same layers as .studio, computed for the teal #75D5DC.
+   Panel: 40% white (shared). Panel as a solid colour (tags): 40% white on teal = #ACE6EA.
+   Cream (marked leads, menu block, marked words): 40% white on the panel = #CDF0F2. */
+[data-reading] { --colour-panel-solid: #ACE6EA; --colour-cream: #CDF0F2; }
