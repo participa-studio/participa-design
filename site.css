@@ -14,3 +14,6 @@
    Panel: 40% white (shared). Panel as a solid colour (tags): 40% white on teal = #ACE6EA.
    Cream (marked leads, menu block, marked words): 40% white on the panel = #CDF0F2. */
 [data-reading] { --colour-panel-solid: #ACE6EA; --colour-cream: #ACE6EA; }   /* Bernardo, 21 Nov 2026: leads, marked words and the menu block in the panel tone (was #CDF0F2) */
+
+/* Home (Bernardo, 21 Nov 2026): a line under the photo as well, so the image sits between two lines and the quote panel starts below it. */
+[data-reading] .home__work--quote .home__cases--hero { border-bottom: 1px solid var(--colour-ink); }
