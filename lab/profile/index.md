@@ -14,7 +14,7 @@ practice: 'I design with the people who use and deliver a service. Early in my c
 experience_heading: Selected experience
 experience:
 - org: bol.
-  years: '2025'
+  years: 2025 – 2025
   role: Head of Design, Core Capabilities (interim)
   result: Made the interdependencies between Core Capabilities domains visible in one experience framework, which the management team adopted as the basis for a group-wide vision.
   link: /lab/bol/
