@@ -13,7 +13,6 @@ exclude:
   - README.md
 
 participa:
-  divider: chain               # divider between text blocks: four even loops drawn on (21 Nov 2026); the single 8 stays in the core as opening-mark-loop
   core: https://participa-studio.github.io/participa-core
   version: 20261121-49          # raise this after every core change
   goo: false                   # replaced by the 8s wave (12 Nov 2026); core js/goo.js kept
