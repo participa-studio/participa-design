@@ -14,7 +14,7 @@ offers:
   subject: Project or consultancy
   button: Start a project
 - title: A workshop or talk
-  text: Co-creation sessions, facilitation, and talks on service design and design leadership.
+  text: Co-creation sessions, facilitation and talks on service design and design leadership.
   subject: Workshop or talk
   button: Plan a session
 other_heading: Prefer to write freely?
