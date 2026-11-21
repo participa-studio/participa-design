@@ -13,4 +13,4 @@
 /* Reading option on .design (21 Nov 2026): the same layers as .studio, computed for the teal #75D5DC.
    Panel: 40% white (shared). Panel as a solid colour (tags): 40% white on teal = #ACE6EA.
    Cream (marked leads, menu block, marked words): 40% white on the panel = #CDF0F2. */
-[data-reading] { --colour-panel-solid: #ACE6EA; --colour-cream: #CDF0F2; }
+[data-reading] { --colour-panel-solid: #ACE6EA; --colour-cream: #ACE6EA; }   /* Bernardo, 21 Nov 2026: leads, marked words and the menu block in the panel tone (was #CDF0F2) */
