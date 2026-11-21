@@ -15,7 +15,7 @@ exclude:
 participa:
   divider: chain               # divider between text blocks: four even loops drawn on (21 Nov 2026); the single 8 stays in the core as opening-mark-loop
   core: https://participa-studio.github.io/participa-core
-  version: 20261121-42          # raise this after every core change
+  version: 20261121-43          # raise this after every core change
   goo: false                   # replaced by the 8s wave (12 Nov 2026); core js/goo.js kept
   reading: true                # reading option (21 Nov 2026), as on .studio; colours set for the teal in site.css
   sdots: "8"                   # hover: the Studio wave with the .design 8 (12 Nov 2026; core js/sdots.js)
