@@ -11,7 +11,7 @@ portrait_square: /images/portrait-linkedin-square.jpg
 portrait_alt: Bernardo vd Schepop
 location: Haarlem, the Netherlands
 practice: 'I design with the people who use and deliver a service. Early in my career that meant putting real users in front of rough ideas as soon as possible, so that decisions rested on what people did, not on what we assumed. For instance, at LEGO Concept Lab (2009), children helped shape a new AR LEGO play experience through regular co-creation sessions I ran as part of my research.<br><br>Over more than 25 years I have used the same approach to map services end to end, run co-creation with customers and staff, and build design teams and practices that organisations keep using: journeys, service blueprints, design systems and research routines. I have done this in consumer electronics (Philips), mobility (LeasePlan, TomTom), logistics (FedEx), retail (bol.) and insurance (MAPFRE).<br><br>Today that design-<mark>with</mark> mindset is also finding its way into partnerships with non-profit organisations and social enterprises, serving communities and the environment.'
-experience_heading: Selected experience
+experience_heading: Selected experiences
 experience:
 - org: bol.
   years: 2025 – 2025
