@@ -13,6 +13,7 @@ exclude:
   - README.md
 
 participa:
+  divider: stars               # divider between text blocks: three stars (25 Nov 2026, swapped with .studio; was the loop)
   core: https://participa-studio.github.io/participa-core
   version: 20261123-14          # raise this after every core change
   goo: false                   # replaced by the 8s wave (12 Nov 2026); core js/goo.js kept
